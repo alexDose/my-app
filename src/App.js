@@ -6,7 +6,7 @@ const DataFilter = ({ data }) => {
 
     const filteredData = data.filter(item => {
         const itemId = String(item.id);
-        return itemId.includes(inputValue);
+        return itemId.startsWith(inputValue);
     });
 
     const uniqueIds = new Set();
@@ -19,7 +19,7 @@ const DataFilter = ({ data }) => {
                 value={inputValue}
                 onChange={(e) => setInputValue(e.target.value)}
             />
-                {inputValue.length > 2 && filteredData.map(item => {
+                {inputValue.length > 1 && filteredData.map(item => {
                     const itemId = String(item.id);
 
                     if (uniqueIds.has(itemId)) {
@@ -33,7 +33,7 @@ const DataFilter = ({ data }) => {
                             <div className={'item'}>card: <span>{item.id}</span></div>
                             <div className={'item'}>tel: <span>{item.tel}</span></div>
                             <div className={'item'}>name: <span>{item.name}</span></div>
-                            <div className={'item'}>bank: <span>{item.card}</span></div>
+                            {item.card && <div className={'item'}>bank: <span>{item.card}</span></div>}
                         </div>
                     );
                 })}
