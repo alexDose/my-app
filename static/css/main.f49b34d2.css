@@ -1,0 +1,2 @@
+*{box-sizing:border-box;margin:0;padding:0}.container{align-items:center;display:flex;flex-direction:column;gap:20px;padding:20px}input{box-shadow:0 2px 4px 0 rgba(0,0,0,.4);outline:none;padding:8px 10px}.box,input{border:1px solid teal;border-radius:8px;width:300px}.box{box-shadow:0 4px 8px 0 rgba(0,0,0,.4);padding:20px}.item{color:gray;display:flex;justify-content:space-between}span{color:#000}
+/*# sourceMappingURL=main.f49b34d2.css.map*/
