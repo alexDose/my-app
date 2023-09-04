@@ -231,7 +231,6 @@ const data = [
     {id: 7579, name: 'Ewa', tel: 'samsung pay', card: ''},
     {id: 9971, name: 'Ewa', tel: 'samsung pay', card: ''},
     {id: 8628, name: 'Ewa', tel: 'samsung pay', card: ''},
-    {id: 8816, name: 'Ewa', tel: 'samsung pay', card: 'seis'},
     {id: 8090, name: 'Maxim', tel: 'samsung pay', card: 'seis'},
     {id: 6544, name: 'Maxim', tel: 'samsung pay', card: ''},
     {id: 2576, name: 'Maxim', tel: 'samsung pay', card: ''},
@@ -516,7 +515,7 @@ const data = [
     {id: 5111, name: 'Petr', tel: 'noviy', card: 'lili pro'},
     {id: 3703, name: 'Petr', tel: 'noviy', card: 'lili pro'},
     {id: 9170, name: 'Petr', tel: 'noviy', card: 'nine25'},
-    {id: 7706, name: 'Petr', tel: 'noviy', card: 'nine25'},
+    {id: 7706, name: 'Petr', tel: 'noviy', card: 'nine25'},sam
     {id: 2450, name: 'Petr', tel: 'noviy', card: 'wise'},
     {id: 5750, name: 'Petr', tel: 'noviy', card: 'nine25'},
     {id: 8816, name: 'Petr', tel: 'noviy', card: 'seis'},
