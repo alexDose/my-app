@@ -498,6 +498,11 @@ const data = [
     {id: 2995, name: 'Grambler', tel: 'voven red siniy', card: ''},
     {id: 6216, name: 'Grambler', tel: 'voven red siniy', card: ''},
     {id: 7168, name: 'Grambler', tel: 'voven red siniy', card: ''},
+    {id: 8884, name: 'Maksstroi', tel: 'noviy', card: 'seis'},
+    {id: 5090, name: 'Maksstroi', tel: 'noviy', card: 'seis'},
+    {id: 1147, name: 'Maksstroi', tel: 'noviy', card: 'seis'},
+    {id: 3169, name: 'Maksstroi', tel: 'noviy', card: 'seis'},
+    {id: '0935', name: 'Maksstroi', tel: 'noviy', card: 'seis'},
 ]
 
 function App() {
