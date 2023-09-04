@@ -515,7 +515,7 @@ const data = [
     {id: 5111, name: 'Petr', tel: 'noviy', card: 'lili pro'},
     {id: 3703, name: 'Petr', tel: 'noviy', card: 'lili pro'},
     {id: 9170, name: 'Petr', tel: 'noviy', card: 'nine25'},
-    {id: 7706, name: 'Petr', tel: 'noviy', card: 'nine25'},sam
+    {id: 7706, name: 'Petr', tel: 'noviy', card: 'nine25'},
     {id: 2450, name: 'Petr', tel: 'noviy', card: 'wise'},
     {id: 5750, name: 'Petr', tel: 'noviy', card: 'nine25'},
     {id: 8816, name: 'Petr', tel: 'noviy', card: 'seis'},
