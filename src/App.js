@@ -32,7 +32,7 @@ const DataFilter = ({ data }) => {
                         <div className={'box'} key={item.id}>
                             <div className={'item'}>card: <span>{item.id}</span></div>
                             <div className={'item'}>tel: <span>{item.tel}</span></div>
-                            <div className={'item'}>name: <span>{item.name}</span></div>
+                            {item.name && <div className={'item'}>name: <span>{item.name}</span></div>}
                             {item.card && <div className={'item'}>bank: <span>{item.card}</span></div>}
                         </div>
                     );
@@ -246,6 +246,7 @@ const data = [
     {id: 1582, name: 'Maxim', tel: 'samsung pay', card: ''},
     {id: 8640, name: 'Maxim', tel: 'samsung pay', card: ''},
     {id: 1194, name: 'Maxim', tel: 'samsung pay', card: ''},
+    {id: 1593, name: 'Maxim', tel: 'samsung pay', card: 'novo'},
     {id: 3232, name: 'Ruslan', tel: 'samsung pay', card: 'lili pro'},
     {id: 4862, name: 'Ruslan', tel: 'samsung pay', card: 'seis'},
     {id: 5173, name: 'Ruslan', tel: 'samsung pay', card: ''},
@@ -351,6 +352,7 @@ const data = [
     {id: 9238, name: 'Radam', tel: 'voven miu', card: ''},
     {id: 1569, name: 'Radam', tel: 'voven miu', card: 'lili pro'},
     {id: 9581, name: 'Radam', tel: 'voven miu', card: ''},
+    {id: 5512, name: 'Bomber Goala', tel: 'voven miu', card: ''},
     {id: 7902, name: 'Gabriel', tel: 'voven miu', card: 'seis'},
     {id: 2816, name: 'Gabriel', tel: 'voven miu', card: ''},
     {id: 1566, name: 'Gabriel', tel: 'voven miu', card: ''},
@@ -502,7 +504,25 @@ const data = [
     {id: 5090, name: 'Maksstroi', tel: 'noviy', card: 'seis'},
     {id: 1147, name: 'Maksstroi', tel: 'noviy', card: 'seis'},
     {id: 3169, name: 'Maksstroi', tel: 'noviy', card: 'seis'},
-    {id: '0935', name: 'Maksstroi', tel: 'noviy', card: 'seis'},
+    {id: '0935', name: 'Liha', tel: 'noviy', card: 'seis'},
+    {id: 3135, name: 'Liha', tel: 'noviy', card: 'lili'},
+    {id: '0434', name: 'Liha', tel: 'noviy', card: 'seis'},
+    {id: '0475', name: 'Liha', tel: 'noviy', card: 'nine25'},
+    {id: 3413, name: 'Liha', tel: 'noviy', card: 'wise'},
+    {id: 6233, name: 'Liha', tel: 'noviy', card: 'nine25'},
+    {id: 8537, name: 'Liha', tel: 'noviy', card: 'nine25'},
+    {id: 4991, name: 'Liha', tel: 'noviy', card: 'nine25'},
+    {id: 2695, name: 'Liha', tel: 'noviy', card: 'nine25'},
+    {id: 5111, name: 'Petr', tel: 'noviy', card: 'lili pro'},
+    {id: 3703, name: 'Petr', tel: 'noviy', card: 'lili pro'},
+    {id: 9170, name: 'Petr', tel: 'noviy', card: 'nine25'},
+    {id: 7706, name: 'Petr', tel: 'noviy', card: 'nine25'},
+    {id: 2450, name: 'Petr', tel: 'noviy', card: 'wise'},
+    {id: 5750, name: 'Petr', tel: 'noviy', card: 'nine25'},
+    {id: 8816, name: 'Petr', tel: 'noviy', card: 'seis'},
+    {id: 9876, name: 'Petr', tel: 'noviy', card: 'seis'},
+    {id: 1511, name: 'Petr', tel: 'noviy', card: 'seis'},
+    {id: 4862, name: 'Petr', tel: 'noviy', card: 'seis'},
     {id: 3871, name: '', tel: 'iphone yellow', card: 'seis'},
     {id: 1616, name: '', tel: 'iphone yellow', card: 'seis'},
     {id: 6017, name: '', tel: 'iphone yellow', card: 'seis'},
