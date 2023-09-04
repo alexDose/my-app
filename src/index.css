@@ -13,7 +13,7 @@
 }
 
 input {
-  width: 300px;
+  width: 260px;
   padding: 8px 10px;
   border-radius: 8px;
   border: 1px solid teal;
@@ -23,7 +23,7 @@ input {
 
 .box {
   padding: 20px;
-  width: 300px;
+  width: 260px;
   border-radius: 8px;
   border: 1px solid teal;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4);
