@@ -519,11 +519,6 @@ const data = [
     // {id: 9073, name: '', tel: 'iphone chehol', card: 'seis'},
     // {id: 4726, name: '', tel: 'iphone chehol', card: 'seis'},
     // {id: 9876, name: '', tel: 'iphone chehol', card: 'seis'},
-    {id: 9800, name: '', tel: 'maxim', card: 'seis'},
-    {id: 3829, name: '', tel: 'iphone', card: 'seis'},
-    {id: 3210, name: '', tel: 'iphone', card: 'seis'},
-    {id: 1252, name: '', tel: 'iphone', card: 'seis'},
-    {id: 9415, name: '', tel: 'iphone', card: 'seis'},
     {id: 2966, name: 'Maksstroi', tel: 'noviy', card: 'millenium'},
     {id: 7159, name: 'Liha', tel: 'noviy', card: 'seis'},
     {id: 8467, name: 'Liha', tel: 'noviy', card: 'seis'},
@@ -602,6 +597,11 @@ const data = [
     {id: 8399, name: 'Oleg', tel: 'noviy', card: 'seis'},
     {id: 3210, name: 'Oleg', tel: 'noviy', card: 'seis'},
     {id: 3370, name: 'Oleg', tel: 'noviy', card: 'seis'},
+    {id: 3829, name: '', tel: 'iphone', card: 'seis'},
+    {id: 3210, name: '', tel: 'iphone', card: 'seis'},
+    {id: 1252, name: '', tel: 'iphone', card: 'seis'},
+    {id: 9415, name: '', tel: 'iphone', card: 'seis'},
+    {id: 9800, name: '', tel: 'maxim', card: 'seis'},
 ]
 
 function App() {
